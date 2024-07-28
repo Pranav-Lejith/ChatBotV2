@@ -1,0 +1,90 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "How are you?", "Is anyone there?", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hi there!", "Hey!", "Hi, how can I assist you today?", "Good day! How can I help?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "See ya", "I'm leaving", "Have a good day"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Have a nice day!", "Talk to you soon!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thank you so much"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem!", "Glad I could assist!"]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What is your age?", "Can you tell me your age?", "How long have you been around?"],
+        "responses": ["I'm a bot, so I don't have an age in the traditional sense.", "I've been learning and growing since I was created!", "Time doesn't affect me like it does humans!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Can you tell me your name?", "Do you have a name?"],
+        "responses": ["I'm your friendly chatbot!", "I don't have a name, but I'm here to help!", "You can call me Chatbot!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["I need help", "Can you help me?", "I need assistance", "Help me", "Can you assist me?"],
+        "responses": ["Of course! What do you need help with?", "I'm here to help! Please tell me what you need.", "Sure, I'm here to assist you. What's the issue?"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "How's the weather?", "Is it going to rain today?", "Tell me the weather forecast"],
+        "responses": ["I'm not connected to real-time weather data, but you can check your local weather app for the latest updates.", "I'm not sure, but it's always a good idea to carry an umbrella just in case!", "I can't provide real-time weather updates, sorry!"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Do you know any jokes?", "Can you make me laugh?", "I want to hear a joke"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems.", "Why do cows have hooves instead of feet? Because they lactose!"]
+      },
+      {
+        "tag": "food",
+        "patterns": ["I'm hungry", "What should I eat?", "Recommend me some food", "I want to eat something"],
+        "responses": ["How about trying a new recipe today?", "Maybe a nice salad or some pasta?", "Why not order some takeout?", "You could try making a smoothie!"]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["Who won the game?", "Tell me the latest sports news", "What's happening in sports?", "Any sports updates?"],
+        "responses": ["I don't have real-time updates, but you can check your favorite sports news site!", "Sorry, I can't provide live sports scores.", "You can stay updated with sports through your favorite sports apps."]
+      },
+      {
+        "tag": "music",
+        "patterns": ["What music do you like?", "Can you recommend some music?", "What's your favorite song?", "Tell me a good song to listen to"],
+        "responses": ["I enjoy all kinds of music! How about some classical tunes?", "You might like listening to some pop hits!", "Jazz is always a good choice if you want to relax.", "How about some rock or electronic music?"]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Recommend me a movie", "What movie should I watch?", "Can you suggest a film?", "I'm looking for a movie to watch"],
+        "responses": ["How about watching a classic like 'The Godfather'?", "You could try a comedy like 'The Office' series!", "If you're into sci-fi, 'Interstellar' is a great choice!", "For a good laugh, you might enjoy 'Parks and Recreation'!"]
+      },
+      {
+        "tag": "health",
+        "patterns": ["How can I stay healthy?", "Any tips for staying fit?", "What should I do to stay healthy?", "Give me some health advice"],
+        "responses": ["Regular exercise and a balanced diet are key!", "Stay hydrated and get plenty of sleep.", "It's important to manage stress and take care of your mental health.", "Remember to have regular check-ups with your doctor."]
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What's the best programming language?", "How do I learn to code?", "Can you teach me programming?", "What are some good programming resources?"],
+        "responses": ["It depends on what you want to do! Python is great for beginners.", "You can start with online courses like Codecademy or Coursera.", "Practice is key! Try building small projects.", "Don't hesitate to join coding communities for support and advice."]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's in the news?", "Any current events?", "Tell me the latest news", "What's happening in the world?"],
+        "responses": ["I'm not connected to live news, but you can check news websites for updates.", "There are many news apps you can use to stay informed.", "It's always good to stay updated with reliable news sources."]
+      },
+      {
+        "tag": "languages",
+        "patterns": ["How many languages do you know?", "Can you speak other languages?", "What languages can you communicate in?", "Do you understand multiple languages?"],
+        "responses": ["I can understand and respond in multiple languages, but I'm best in English.", "I can assist with basic phrases in other languages.", "For now, English is my strongest language.", "I'm here to help primarily in English!"]
+      },
+      {
+        "tag": "trivia",
+        "patterns": ["Tell me a fun fact", "Do you know any trivia?", "Share some trivia with me", "Give me an interesting fact"],
+        "responses": ["Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!", "Bananas are berries, but strawberries aren't!", "Octopuses have three hearts.", "A group of flamingos is called a 'flamboyance'."]
+      }
+    ]
+  }
+  
